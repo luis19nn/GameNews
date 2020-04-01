@@ -1,0 +1,198 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    position: relative;
+    background-color: rgb(73, 0, 141);
+    background-image: url(../imagens/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: #010931a4;
+    height: 245px;
+    margin-bottom: 30px;
+}
+
+#logo {
+    width: 220px;
+    margin: 0 auto;
+}
+
+#logo h2 {
+    float: left;
+    text-indent: -9999px;
+}
+
+#logo img {
+    width: 220px;
+    height: 219px;
+    transform: translateX(-7%);
+    margin-bottom: 0;
+}
+
+#logo a {
+    display: flex;
+    justify-content: center;
+}   
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav.topo ul li {
+    list-style: none;
+}
+
+nav.topo ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff1db4c5;
+    text-transform: uppercase;
+    padding: 12px;
+    margin: 10px;
+}
+
+nav.topo ul#cima {
+    float: right;
+    margin-top: 20px;
+}
+
+nav.topo ul li a:hover {
+    background-color: #00ccffce;
+    transition: all 1s;
+}
+
+.conteudo a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff1db4c5;
+    padding: 5px;
+}
+
+.conteudo a:hover {
+    background-color: #00ccffce;
+    transition: all 1s;
+}
+
+.conteudo img {
+    margin-bottom: 12px;
+}
+
+aside {
+    float: right;
+    width: 310px;
+    background: #ff1db4c5;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+aside h4 {
+    color: #fff;
+    font-size: 0.9em;
+}
+
+aside p {
+    color: #fff;
+    font-size: 0.7em;
+}
+
+article {
+    margin-bottom: 25px;
+}
+
+.risco {
+    border-top: 1px solid #fff;
+}
+
+#principal {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.conteudo {
+    float: left;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    margin-left: 230px;
+}
+
+.conteudo h2{
+    color: #00ccffce;
+    font-size: 1.2em;
+}
+
+.conteudo p{
+    color: #fff;
+    font-size: 1em;
+}
+
+.conteudo article#primeiro img#direita {
+    float: right;
+    margin-bottom: 25px;
+}
+
+.conteudo article#primeiro img#esquerda{
+    float: left;
+    margin-right: 15px;
+}
+
+.caixa {
+    clear: both;
+    position: relative;
+    background-image: url(../imagens/noticia-fodastica.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;    
+}
+
+.conteudo-caixa {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+    color: #00ccffce;
+    background-color: #000;
+    text-transform: uppercase;
+    padding: 18px;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+footer {
+    clear: both;
+    background-color: #000;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer nav#rodape ul li a {
+    margin: 35px;
+    color: #ff1db4c5;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer nav#rodape ul li a:hover {
+    color: #00ccffce;
+    border-top: 1px solid #00ccffce;
+    margin-top: 3px;
+    transition: all 1s;
+}
+
+footer p {
+    color: #ff1db4c5;
+    display: flex;
+    justify-content: center;
+}
